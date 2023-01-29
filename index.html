@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estiloJogo.css">
+</head>
+<body>
+    <div id="container">
+        <div id="tabela">
+            <table id="pontuacao">
+                <tr>
+                    <th>Rodada</th>
+                    <th id="x"></th>
+                    <th id="bola"></th>
+                </tr>
+                
+            </table>
+            <button onclick="novoJogo()">Novo jogo</button>
+            <button onclick="novaRodada()">Nova Rodada</button>
+        </div>
+        <div id="jogoDaVelha">
+            <div class="espacos" id="_0x0" onclick="realizaJogada('0','0')"></div>
+            <div class="espacos" id="_0x1" onclick="realizaJogada('0','1')"></div>
+            <div class="espacos" id="_0x2" onclick="realizaJogada('0','2')"></div> <br>
+            <div class="espacos" id="_1x0" onclick="realizaJogada('1','0')"></div>
+            <div class="espacos" id="_1x1" onclick="realizaJogada('1','1')"></div>
+            <div class="espacos" id="_1x2" onclick="realizaJogada('1','2')"></div><br>
+            <div class="espacos" id="_2x0" onclick="realizaJogada('2','0')"></div>
+            <div class="espacos" id="_2x1" onclick="realizaJogada('2','1')"></div>
+            <div class="espacos" id="_2x2" onclick="realizaJogada('2','2')"></div>
+        </div>
+        
+    </div>
+    <audio src="audio/som de jogada.mp4" id="jogada"></audio>
+    
+    <script src="js/compJogoDaVelha.js"></script>
+</body>
+</html>

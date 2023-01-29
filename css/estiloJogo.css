@@ -1,0 +1,93 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.espacos{
+    width: 249px;
+    height: 249px;
+    background-size: 100% 100%;
+    float: left;
+    
+}
+#_0x0{
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    width: 245px;
+    height: 245px;
+}
+#_0x1{
+    border-right: 5px black solid;
+    
+    border-bottom: 5px black solid;
+    width: 245px;
+    height: 245px;
+}
+#_0x2{
+   
+    border-bottom: 5px black solid;
+    width: 250px;
+    height: 245px;
+}
+#_1x0{  
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    width: 245px;
+    height: 245px;
+}
+#_1x1{
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    width: 245px;
+    height: 245px;
+    
+}
+#_1x2{
+    border-bottom: 5px black solid;
+    height: 245px;
+}
+#_2x0{
+    border-right: 5px black solid;
+    width: 245px;
+}
+#_2x1{
+    border-right: 5px black solid;
+    width: 245px;
+}
+#tabela{
+    width: 300px;
+    height:min-content 300px;
+    position: absolute;
+    background-color: rgb(131, 248, 248);
+    display: none;
+}
+#tabela button + button{
+    margin-left: 122px;
+    
+}
+#tabela table{
+    width: 100%;
+    border: 2px black solid;
+
+}
+th{
+    width: 30px;
+    height: 35px;
+    border: 1px black solid;
+}
+td{
+    width: 30px;
+    height: 35px;
+    border: 1px black solid;
+}
+#x{
+    border: 1px black solid;
+    background-image: url(../img/x.png);
+    background-size: 100% 100%;
+}
+#bola{
+    border: 1px black solid;
+    background-image: url(../img/bola.png);
+    background-size: 100% 100%;
+}
